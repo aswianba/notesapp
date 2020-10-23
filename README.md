@@ -1,7 +1,7 @@
 # notesapp
 
 
-App is develop considering below format of data from api:
+App is developed considering below format of data from api:
 {
   "notes": [
     {
