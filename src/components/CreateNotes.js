@@ -1,10 +1,8 @@
 import React from "react";
 
-const CreateNotes = (props) => {
-  const { selectedData } = props;
-
+const CreateNotes = ({ selectedData, ...props }) => {
   return (
-    <div class="col-sm-11">
+    <div className="col-sm-11">
       <div className="form-group">
         <button
           type="button"
@@ -26,7 +24,7 @@ const CreateNotes = (props) => {
           onChange={(e) => props.handleChange("title", e.target.value)}
         />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label htmlFor="comment">Body:</label>
         <textarea
           className="form-control"

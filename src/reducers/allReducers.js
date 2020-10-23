@@ -1,12 +1,8 @@
 import { combineReducers } from "redux";
-import fetchNotesReducer from "./fetchNotesReducer";
-import addNoteReducer from "./addNoteReducer";
-import deleteNoteReducer from "./deleteNoteReducer";
 import loginReducer from "./loginReducer";
+import notesList from "./notesReducer";
 
 export const allreducers = combineReducers({
-  fetchNotesReducer: fetchNotesReducer,
-  addNoteReducer: addNoteReducer,
-  deleteNoteReducer: deleteNoteReducer,
   loginReducer: loginReducer,
+  notesList: notesList,
 });

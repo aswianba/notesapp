@@ -14,7 +14,6 @@ const loginReducer = (state = initialState, action) => {
         inProgress: true,
       });
     case "TRY_LOGIN_SUCCESS":
-      //alert();
       return Object.assign({}, state, {
         userName: action.response,
         isLoggedIn: true,

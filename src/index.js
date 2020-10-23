@@ -8,7 +8,6 @@ import saga from "./sagas/sagas";
 import ErrorBoundary from "./container/ErrorBoundary";
 import { applyMiddleware, createStore } from "redux";
 import createSagaMiddleware from "redux-saga";
-import { Router } from "react-router";
 import { allreducers } from "./reducers/allReducers";
 
 const sagaMiddleware = createSagaMiddleware();

@@ -1,6 +1,6 @@
 const addNote = (note) => ({
   type: "ADD_NOTE",
-  payload: { note },
+  payload: note,
 });
 
 export default addNote;

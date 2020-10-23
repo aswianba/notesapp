@@ -1,5 +1,5 @@
 const fetchNotes = () => ({
-  type: "FETCH_NOTES",
+  type: "GET_ALL",
 });
 
 export default fetchNotes;

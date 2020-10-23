@@ -18,7 +18,6 @@ function App() {
           exact
           component={userDetails ? Notes : LoginPage}
         />
-
         <Route path="/" exact component={LoginPage} />
       </BrowserRouter>
     </div>

@@ -1,6 +1,6 @@
 const deleteNote = (note) => ({
   type: "DELETE_NOTE",
-  payload: { note },
+  payload: note,
 });
 
 export default deleteNote;

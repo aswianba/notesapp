@@ -1,6 +1,6 @@
 const saveNotes = (note) => ({
-  type: "SAVE_NOTES",
-  payload: { note },
+  type: "UPDATE_NOTE",
+  payload: note,
 });
 
 export default saveNotes;

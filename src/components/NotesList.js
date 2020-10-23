@@ -3,7 +3,7 @@ import React from "react";
 const NotesList = (props) => {
   const renderSingleList = (note) => {
     return (
-      <li class="list-group-item">
+      <li key={note.id} className="list-group-item">
         <div className="row">
           <div
             className="col-sm-10"
