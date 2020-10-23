@@ -26,6 +26,6 @@ Username and password validaions are not done - only the routing is done(always 
 
 -------------------------------------------------------------------------------------
 
-The final output UI is attached in "ui_notes_app" file(attached in git)
+The final output UI is attached in "login ui.JPG and notes_ui" file(attached in git)
 
 ----------------------------------------------------------------
